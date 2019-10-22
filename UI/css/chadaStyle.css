@@ -5,6 +5,10 @@ Version: 0.001
 Name   : Chada Style  
 */
 
+html, * {
+    margin:0px;
+    padding: 0px;
+}
 
 .body-ini {
     padding: 0px;
@@ -34,7 +38,7 @@ em {
 * #ffab40 -  
 */
 
-.bg-primary{ background-color: #F44336 ; color: #fff !important; }
+.bg-primary{ background-color: #2196F3 ; color: #fff !important; }
 .bg-grey { background-color: #ccc; }
 .bg-white{ background-color: #fff; }
 .bg-red { background-color: #F44336 }
@@ -62,7 +66,7 @@ em {
 * Colors - Foregrounds
 * primary , white , black
 */
-.fg-primary{color: #F44336 !important }
+.fg-primary{color: #2196F3 !important }
 .fg-white{ color : #fff; }
 .fg-black{ color : #222; }
 .fg-green { color: #4CAF50 }
@@ -99,6 +103,9 @@ em {
 }
 .let {
     padding: 40px;
+}
+.hr-bottom {
+    border : 1px solid #f8f9fa;
 }
 
 /* 
@@ -246,7 +253,7 @@ nav {
         padding: 0; }
 
          nav ul li.active {
-          background-color: #F44336;
+          background-color: #2196F3;
          }
          nav ul li.active a {
              color: white;
@@ -308,7 +315,7 @@ nav {
 
         .slider .banners li .details {
             position: absolute;
-            bottom: 20%;
+            bottom: 35%;
             left: 15%;
             width: 60%;          
         }
@@ -344,7 +351,7 @@ nav {
         content: 'keyboard_arrow_down';
         font-family: 'material icons';
         font-size: 24px;
-        color: #F44336;
+        color: #2196F3;
         position: absolute;
         right: 10px;
         top: 50%;
@@ -507,7 +514,7 @@ nav {
     border-radius: 20px;
     z-index :555;
     transition: all .4s;
-    background-color:#F44336;
+    background-color:#2196F3;
     color:white;
 }
 .toast .toast-body {
@@ -545,7 +552,7 @@ nav {
     text-decoration: none;
   }
   .sliderout  ul li a.active {
-    color: #F44336;
+    color: #2196F3;
   }
   .sliderout ul li {
        width: 100%;
@@ -565,7 +572,7 @@ nav {
     font-size: 30px;
     cursor: pointer;
     transition: all .5s ease;
-    color :#F44336;
+    color :#2196F3;
   }
   
   .sliderout input#toggle-menu:checked ~ ul {
