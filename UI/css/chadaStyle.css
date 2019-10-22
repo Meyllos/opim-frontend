@@ -39,7 +39,7 @@ em {
 .bg-white{ background-color: #fff; }
 .bg-red { background-color: #F44336 }
 .bg-blue { background-color: #2196F3}
-.bg-white-delay { background-color: rgba(201, 200, 200, 0.1) }
+.bg-low-light{ background-color: #f8f9fa; }
 .bg-green { background-color: #4CAF50 }
 
 /* 
@@ -307,29 +307,15 @@ nav {
         }
 
         .slider .banners li .details {
-            background-color: rgba(255, 255, 255, 0.6) ;
-            color : #222 ;
             position: absolute;
-            bottom: 14%;
+            bottom: 20%;
             left: 15%;
-            width: 33%;
-            border-radius: 8px;
-          
+            width: 60%;          
         }
 
-        .slider .banners li .pro-details {
-            background-color: rgba(255, 255, 255, 0.6) ;
-            color : #222 ;
-            position: absolute;
-            bottom: 14%;
-            left: 15%;
-            width: 33%;
-            border-radius: 8px;
-          
-        }
-
-            .slider .banners li .details h5 {
-                color: #222; 
+            .slider .banners li .details h1 {
+                color: #fff; 
+                font-size:100px;
             }
 
 /* 
@@ -742,10 +728,8 @@ nav {
             height: 300px; 
         }
     
-        .slider .banners li .details, .slider .banners li .pro-details {
-            display : none;
+        .slider .banners li .details h1 {
+            font-size: 38px;
         }
 
 }
-
-
