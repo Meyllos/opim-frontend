@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OpIm - Sign up </title>
+
+    <link rel="stylesheet" href="../css/chadaStyle.css">
+</head>
+<body class="body-ini bg-low-light">
+    <div class="fixed-nav">
+        <nav class="bg-white"> 
+            <div class="container">
+                <div class="nav-wrapper ">
+                    <a href="../index.html" class="logo fg-primary"> O<span class="fg-black">PIM</span></a>
+
+                    <ul class="right hide-on-med-sma">
+                      <li ><a href="404.html">Account</a></li>
+                      <li ><a href="../index.html">Log out </a></li>
+                    </ul>
+
+                    <div class="sliderout right">
+                        <input type="checkbox" id="toggle-menu" />
+                        <label for="toggle-menu">&#9776;</label>
+                        <ul>
+                            <li ><a href="404.html">Account</a></li>
+                            <li ><a href="../index.html">Log out </a></li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div> 
+    
+    <div class="row">
+        <div class="col s12" style="padding-left: 0px; " >
+            <div class="container">
+                <div class="let center-align" style="padding-left: 0px; " >
+                    <h2> Email verification </h2>
+                    <span class="fg-primary"> It is done ,</span> verify your email address to secure your account and more
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row bg-white" style="padding: 30px; border-radius:8px">
+            <form class="">
+                <div class="row ">
+                    <div class="col s12 ">
+
+                        <div class="row">
+                            <div class="col s12">
+                        
+                                <p> An email have been sent to the address <a href="mailto:opim@gmail.com"> opim@gmail.com </a>  
+                                    with a <span class="red-text"> verification code and activation link </span>,
+                                    input the code bellow or click the link sent to validate your account
+                                </p>
+
+                            </div>
+                        </div>
+    
+                        <div class="row">
+                            <div class="col s12 m12 l12">
+                                    <input type="number" maxlength="5"  class='code' placeholder="Verification Code"  style='text-align: center;' required>
+                            </div>
+                        </div>
+
+                        <div class="col s12 center">
+                            <button type='button' class="btn bg-primary" onclick="new EmailVerification()"> Validate My Account </button> 
+                        </div>
+
+                    </div> 
+                </div>
+            </form>
+        </div>
+     </div>
+        
+    <div>
+        <nav> 
+            <div class="container">
+                <div class="nav-wrapper ">
+                    <div class="row">
+                        <div class="col s12 center-align">
+                            <span class="fg-unfocus">Copyright 2019 - OPIM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <script src="../js/chadaQ.js"></script>
+    <script src="../js/email.js"></script>
+
+</body>
+</html>

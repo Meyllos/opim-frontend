@@ -7,7 +7,7 @@ class Signup extends IsQ{
 
     /* process */
     process(email,passcode) {
-         document.location.assign("404.html");
+        QredirectTo("emailverification.html");
     }
 
     validate(){
