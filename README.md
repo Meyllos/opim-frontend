@@ -12,7 +12,7 @@ $ git clone https://github.com/Meyllos/opim-frontend.git
 
 #### Cd into the project 
 `` Run index.html ``
-### Deployment
+## Deployment
 
 The application template is hosted on github pages
 <a href="https://meyllos.github.io/opim-frontend/UI/"> https://meyllos.github.io/opim-frontend/UI/ </a> <br/>
@@ -21,7 +21,7 @@ The application template is hosted on github pages
   <li> Interact with the application template to discover other activities </li> 
 </ul>
 
-### Management 
+## Management 
 
 The development phases of the project (project stories) are on pivotaltracker
  : <a href="https://www.pivotaltracker.com/n/projects/2407861"> https://www.pivotaltracker.com/n/projects/2407861 </a> 
