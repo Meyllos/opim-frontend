@@ -8,7 +8,7 @@ class Signin extends IsQ{
 
     /* process */
     process(email,passcode) {
-         document.location.assign("404.html");
+        QredirectTo("404.html");
     }
 
     validate(){
