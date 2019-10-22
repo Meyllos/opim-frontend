@@ -1,5 +1,4 @@
-# opim-frontend
-Online Personal Information Management System - Official Template
+# OPIM
 
 This app allows you to access, manage and share all your valuable information safely, anytime, anywhere.
 
